@@ -1,23 +1,11 @@
-# Zindi-Uber-RANRAIL-Movement-Challenge
-Incident data in Cape Town, South Africa has been provided by SANRAL Freeway Management System and travel times between zones in Cape Town have been provided by Uber Movement.  The aim of this challenge is to forecast if an incident will occur for each hour of each day per 500m road segment along the major roadways in Cape Town for 1 January 2019 to 31 March 2019.
-## Overview
-
-This is your new Kedro project, which was generated using `Kedro 0.15.2` by running:
-
-```
-kedro new
-```
-
-Take a look at the [documentation](https://kedro.readthedocs.io) to get started.
-
-## Rules and guidelines
-
-In order to get the best out of the template:
- * Please don't remove any lines from the `.gitignore` file provided
- * Make sure your results can be reproduced by following a data engineering convention, e.g. the one we suggest [here](https://kedro.readthedocs.io/en/latest/06_resources/01_faq.html#what-is-data-engineering-convention)
- * Don't commit any data to your repository
- * Don't commit any credentials or local configuration to your repository
- * Keep all credentials or local configuration in `conf/local/`
+## Zindi-Uber-RANRAIL-Movement-Challenge
+# Overview
+This repo is a competition submission for the [Zindi Uber Movement SANRAL Cape Town Challenge
+](https://zindi.africa/competitions/uber-movement-sanral-cape-town-challenge). This solution, using Non-negative Matrix Factorization took first place in the competition hackathon and remained top of the public and private leaderboards for 4 months despite is simplicity. Please enjoy.    
+  
+Incident data in Cape Town, South Africa has been provided by SANRAL Freeway Management System and travel times between zones in Cape Town have been provided by Uber Movement.  The aim of this challenge is to forecast if an incident will occur for 
+each hour of each day per 500m road segment along the major roadways in Cape Town for 1 January 2019 to 31 March 2019.
+  
 
 ## Installing dependencies
 
@@ -36,16 +24,6 @@ You can run your Kedro project with:
 ```
 kedro run
 ```
-
-## Testing Kedro
-
-Have a look at the file `src/tests/test_run.py` for instructions on how to write your tests. You can run your tests with the following command:
-
-```
-kedro test
-```
-
-To configure the coverage threshold, please have a look at the file `.coveragerc`.
 
 
 ### Working with Kedro from notebooks
